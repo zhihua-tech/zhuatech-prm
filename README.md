@@ -66,3 +66,7 @@ npm run dev:demo
 | ![知华科技微信咨询二维码一](docs/images/zhuatech-wechat-consulting.png) | ![知华科技微信咨询二维码二](docs/images/zhuatech-wechat-consulting-2.png) |
 
 SEO 关键词：PRM 系统源码、伙伴关系管理、渠道管理系统、伙伴门户、商机报备、渠道返利、Java PRM、Vue 渠道系统、知华科技。
+
+## 渠道商机冲突检测
+
+新增 `POST /api/prm/insights/deal-conflict`，在商机报备时匹配同一客户、伙伴保护期和商机金额，返回冲突分数、已有报备及 `CLEAR`、`REVIEW` 或 `BLOCK`。
