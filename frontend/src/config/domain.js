@@ -1,4 +1,4 @@
-/* Copyright 2026 上海如静知华信息科技有限公司 */
+/* Copyright 2026 上海如静知华信息科技有限公司 · https://www.zhuatech.cn/ */
 export const domain={
  code:'PRM',systemName:'合作伙伴与渠道管理平台',englishName:'PARTNER RELATIONSHIP MANAGEMENT',theme:{primary:'#255f55',dark:'#203c38',accent:'#c78a42'},
  workspace:'渠道事业部 / 伙伴运营中心',fieldWorkspace:'华东生态大区',period:'2026-08-01 · Q3 伙伴冲刺期',liveText:'渠道商机于 10:18 完成同步',fieldContextLabel:'当前伙伴',fieldContext:'华东区 · 金牌级',fieldUser:'周惟',fieldRole:'伙伴经理',adminUser:'顾言',adminRole:'渠道运营总监',

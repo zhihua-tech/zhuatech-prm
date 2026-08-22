@@ -1,4 +1,4 @@
-/* Copyright 2026 上海如静知华信息科技有限公司 */
+/* Copyright 2026 上海如静知华信息科技有限公司 · https://www.zhuatech.cn/ */
 package cn.zhuatech.prm;
 import cn.zhuatech.prm.service.DealRegistrationConflictService;import org.junit.jupiter.api.Test;import java.math.*;import java.util.*;import static org.junit.jupiter.api.Assertions.*;
 class DealRegistrationConflictServiceTests {private final DealRegistrationConflictService service=new DealRegistrationConflictService();
