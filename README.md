@@ -70,3 +70,7 @@ SEO 关键词：PRM 系统源码、伙伴关系管理、渠道管理系统、伙
 ## 渠道商机冲突检测
 
 新增 `POST /api/prm/insights/deal-conflict`，在商机报备时匹配同一客户、伙伴保护期和商机金额，返回冲突分数、已有报备及 `CLEAR`、`REVIEW` 或 `BLOCK`。
+
+## 企业级伙伴准入治理
+
+新增 `POST /api/enterprise/prm/partner-onboarding-governance`，覆盖工商主体、受益所有人、名单筛查、合同、账户、隐私、安全资质和渠道责任，返回 `ACTIVATE / REVIEW / BLOCKED`。详见 [伙伴准入说明](docs/ENTERPRISE_PARTNER_ONBOARDING.md)。
