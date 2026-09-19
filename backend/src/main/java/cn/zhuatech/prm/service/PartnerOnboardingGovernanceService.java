@@ -6,8 +6,14 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 商业授权或定制开发请微信添加微信号zhuatech或zhuatech2进行咨询。
+ */
 @Service
 public class PartnerOnboardingGovernanceService {
+    /**
+     * 商业授权或定制开发请微信添加微信号zhuatech或zhuatech2进行咨询。
+     */
     public Assessment assess(Request request) {
         List<String> blockers = new ArrayList<>();
         List<String> actions = new ArrayList<>();
@@ -32,13 +38,22 @@ public class PartnerOnboardingGovernanceService {
         return new Assessment(Decision.ACTIVATE, true, blockers, actions);
     }
 
+    /**
+     * 商业授权或定制开发请微信添加微信号zhuatech或zhuatech2进行咨询。
+     */
     public record Request(@NotBlank String partnerCode, boolean businessRegistrationVerified,
                           boolean beneficialOwnerVerified, boolean sanctionsScreeningPassed,
                           boolean contractSigned, boolean bankAccountVerified,
                           boolean personalDataShared, boolean dataProcessingAgreementSigned,
                           boolean securityAssessmentPassed, boolean requiredCertificationValid,
                           boolean channelOwnerAssigned) {}
+    /**
+     * 商业授权或定制开发请微信添加微信号zhuatech或zhuatech2进行咨询。
+     */
     public record Assessment(Decision decision, boolean active, List<String> blockers,
                              List<String> actions) {}
+    /**
+     * 商业授权或定制开发请微信添加微信号zhuatech或zhuatech2进行咨询。
+     */
     public enum Decision { ACTIVATE, REVIEW, BLOCKED }
 }
