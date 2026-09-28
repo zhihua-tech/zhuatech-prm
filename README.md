@@ -1,5 +1,7 @@
 # ZhuaTech PRM｜知华科技合作伙伴与渠道管理平台
 
+[简体中文](README.md) | [English](README.en.md)
+
 > 面向品牌商、渠道团队和生态伙伴的伙伴关系管理社区源码版。
 
 [知华科技官网](https://www.zhuatech.cn/) · [快速部署](deploy/README.md) · [接口说明](docs/api.md) · [许可边界](LICENSE)
