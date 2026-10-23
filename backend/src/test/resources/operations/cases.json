@@ -1,0 +1,47 @@
+[
+  {
+    "patch": {},
+    "expected": {
+      "decision": "PASS",
+      "protectionEnd": "2026-11-30",
+      "remainingDays": "#38",
+      "discountAmount": "#1000"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "protectionDays": "10"
+    },
+    "expected": {
+      "decision": "HOLD"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "discountPct": "21"
+    },
+    "expected": {
+      "decision": "HOLD"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "registered": "2026-10-24"
+    },
+    "expected": {},
+    "error": true
+  },
+  {
+    "patch": {
+      "protectionDays": "22"
+    },
+    "expected": {
+      "decision": "REVIEW",
+      "remainingDays": "#0"
+    },
+    "error": false
+  }
+]
